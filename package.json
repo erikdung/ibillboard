@@ -1,0 +1,28 @@
+{
+  "name": "ibillboard-test",
+  "version": "1.0.0",
+  "description": "Testing app for iBillBoard",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node app.js"
+  },
+  "author": "Le Dung",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "redis": "^2.5.3"
+  },
+  "devDependencies": {
+    "async": "^1.5.2",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "request": "^2.72.0",
+    "underscore": "^1.8.3"
+  },
+  "config": {
+    "port": 3333,
+    "redis_host": "127.0.0.1",
+    "redis_port": 6379
+  }
+}
